@@ -1,0 +1,9 @@
+[
+    {
+      "id": "Pulumi.PreConfiguredJobPlugin",
+      "description": "A Pulumi plugin that provides Pulumi pipeline stage as a pre-configured job.",
+      "provider": "https://github.com/pulumi",
+      "releases": [
+      ]
+    }
+  ]
