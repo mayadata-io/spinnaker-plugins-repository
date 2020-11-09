@@ -1,9 +1,22 @@
 [
-    {
-      "id": "Pulumi.PreConfiguredJobPlugin",
-      "description": "A Pulumi plugin that provides Pulumi pipeline stage as a pre-configured job.",
-      "provider": "https://github.com/pulumi",
-      "releases": [
-      ]
-    }
-  ]
+  {
+    "id": "Pulumi.PreConfiguredJobPlugin",
+    "description": "A Pulumi plugin that provides Pulumi pipeline stage as a pre-configured job.",
+    "provider": "https://github.com/pulumi",
+    "releases": []
+  },
+  {
+    "id": "Litmuschaos.PreconfiguredJobPlugin",
+    "description": "A litmuschaos plugin that provides chaos experiments as a pre-configured job.",
+    "provider": "https://github.com/litmuschaos",
+    "releases": [
+      {
+        "version": "0.0.1",
+        "date": "2020-11-09T12:36:53.558174Z",
+        "requires": "orca>=0.0.0",
+        "sha512sum": "5809315580d10c17786ca557f190f9421878114965487d89c3154f5d187bc3553d343df18fa0aa3711a515b3fa6b1cf3663934915c061e0042abc97bb686723e",
+        "url": "https://github.com/mayadata-io/spinnaker-preconfigured-job-plugin/releases/download/v0.0.1/spinnaker-preconfigured-job-plugin-v0.0.1.zip"
+      }
+    ]
+  }
+]
