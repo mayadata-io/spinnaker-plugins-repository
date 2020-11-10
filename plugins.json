@@ -5,6 +5,13 @@
     "provider": "https://github.com/litmuschaos",
     "releases": [
       {
+        "version": "0.0.4",
+        "date": "2020-11-10T18:32:31.842929Z",
+        "requires": "orca>=0.0.0",
+        "sha512sum": "37a92aa149942a7e07857b8646d3a0d6e847e7525af60c34a5b475abe6790f1aa5840558d0e58e12004691c3b19c877c1b55d09be87c1e21a75a069886a6a7c0",
+        "url": "https://github.com/mayadata-io/spinnaker-preconfigured-job-plugin/releases/download/v0.0.4/spinnaker-preconfigured-job-plugin-v0.0.4.zip"
+      },
+      {
         "version": "0.0.3",
         "date": "2020-11-10T15:54:22.946718Z",
         "requires": "orca>=0.0.0",
