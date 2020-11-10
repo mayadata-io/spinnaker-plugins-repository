@@ -1,19 +1,20 @@
-This is an example plugin repository that references all example plugins.
+# Usage
 
-Adding the following to your orca.yml config will load and start the latest RandomWaitPlugin example plugin during app startup.
+- Add LitmusChaos to the spinnaker plugin list by modifying the halyard config as provided below. Refer: [plugin-v2-configuration](https://spinnaker.io/guides/user/plugins/#plugin-v2-configuration-changes)
+
 ```
-spinnaker:
-  extensibility:
-    plugins:
-      Armory.RandomWaitPlugin:
-        enabled: true
-        version: 1.0.16
-        extensions:
-          armory.randomWaitStage:
-            enabled: true
-            config:
-              defaultMaxWaitTime: 60
-    repositories:
-      example-repo:
-        url: https://raw.githubusercontent.com/spinnaker-plugin-examples/examplePluginRepository/master/repositories.json
+  spinnaker:
+    extensibility:
+      plugins:
+        Litmuschaos.PreconfiguredJobPlugin:
+          id: Litmuschaos.PreconfiguredJobPlugin
+          enabled: true
+          version: 0.0.3
+          extensions: {}
+      repositories:
+        spinnaker-plugins-repository:
+          id: spinnaker-plugins-repository
+          url: https://raw.githubusercontent.com/mayadata-io/spinnaker-plugins-repository/main/plugins.json
 ```
+
+For more details about the plugin visit the [LitmusChaos Plugin Source Repository](https://github.com/mayadata-io/spinnaker-preconfigured-job-plugin)
